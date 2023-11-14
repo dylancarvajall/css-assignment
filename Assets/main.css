@@ -9,3 +9,8 @@ p {
 
     padding: 20px;
   }
+
+  #name {
+    border-radius: 2em;
+    margin: 15px;
+  }
