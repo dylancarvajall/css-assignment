@@ -3,7 +3,8 @@ p {
     border: 1px;
     border-style: solid;
   }
-
+/* Class selectors start with - for all lines with that class
+* ID selectors begin with # - for that only line */
   .favorites {
     background-color: yellow;
 
@@ -13,4 +14,9 @@ p {
   #name {
     border-radius: 2em;
     margin: 15px;
+  }
+
+  ul * {
+    text-decoration: none;
+    color: pink;
   }
