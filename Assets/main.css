@@ -35,6 +35,12 @@ p {
     right: 0;
   }
 
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
   /* Descendant Selectors - beginning of this code will be the
   * name of the target and the * will ensure all targets will be
   * unified */
