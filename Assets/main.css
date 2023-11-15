@@ -6,7 +6,7 @@ p {
 /* Class selectors start with - for all lines with that class
 * ID selectors begin with # - for that only line */
   .favorites {
-    background-color: yellow;
+    background-color: #9df9ef;
 
     padding: 20px;
   }
@@ -18,7 +18,7 @@ p {
 
   ul * {
     text-decoration: none;
-    color: pink;
+    color: #ffa8b6;
   }
 
   .favorite-food {
@@ -45,6 +45,13 @@ p {
     position: fixed;
     bottom: -15px;
     left: 8px;
+  }
+
+  .section-title {
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 2em;
   }
 
   /* Descendant Selectors - beginning of this code will be the
