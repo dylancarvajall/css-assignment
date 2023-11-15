@@ -41,6 +41,12 @@ p {
     grid-gap: 20px;
   }
 
+  footer {
+    position: fixed;
+    bottom: -15px;
+    left: 8px;
+  }
+
   /* Descendant Selectors - beginning of this code will be the
   * name of the target and the * will ensure all targets will be
   * unified */
